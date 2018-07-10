@@ -1,6 +1,6 @@
 language: r
 install:
-- R -e 'install.packages(c('dplyr', 'ggplot2'))'
+- R -e 'install.packages(c("dplyr", "ggplot2"))'
 sudo: required
 script:
-- R -e 'source('R/check_documentation.R, echo = TRUE)'
+- R -e 'source("R/check_documentation.R", echo = TRUE)'
