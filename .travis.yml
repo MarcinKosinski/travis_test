@@ -1,0 +1,7 @@
+language: r
+r_packages:
+  - dplyr
+  - ggplot2
+sudo: required
+script:
+- R -e 'source('R/check_documentation.R, echo = TRUE)'
